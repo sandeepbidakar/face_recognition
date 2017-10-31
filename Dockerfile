@@ -4,7 +4,7 @@ FROM python:3.4-slim
 
 RUN apt-get -y update
 RUN apt-get install -y --fix-missing \
-    build-essential \
+#    build-essential \
     cmake \
     gfortran \
     git \
